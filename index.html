@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การแนะนำตัวเอง</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .student-section {
+            margin-bottom: 40px;
+        }
+        
+        .student-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .student-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        .student-icon {
+            font-size: 3em;
+            margin-right: 20px;
+        }
+        
+        .student-info h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        
+        .student-info p {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 80px;
+        }
+        
+        .details p {
+            margin: 10px 0;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .details strong {
+            color: #333;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .student-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .student-icon {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            
+            .details {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>การแนะนำตัวเอง</h1>
+            <p>นักเรียนชั้นมัธยมศึกษาปีที่ 5 ห้อง 3</p>
+        </div>
+        
+        <div class="content">
+            <!-- นายกรินทร์ ดีแจ่ม -->
+            <div class="student-section">
+                <div class="student-header">
+                    <div class="student-icon">👨‍🎓</div>
+                    <div class="student-info">
+                        <h2>นายกรินทร์ ดีแจ่ม</h2>
+                        <p>มัธยมศึกษาปีที่ 5/3</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <p><strong>ชื่อ:</strong> นายกรินทร์ ดีแจ่ม</p>
+                    <p><strong>ชั้นเรียน:</strong> มัธยมศึกษาปีที่ 5/3</p>
+                    <p><strong>เลขที่:</strong> -</p>
+                    <p><strong>เกี่ยวกับตัวเอง:</strong> นักเรียนที่ใฝ่ฝันและมีความสนใจในด้านวิทยาศาสตร์และเทคโนโลยี พร้อมที่จะเรียนรู้สิ่งใหม่และทำงานร่วมกับผู้อื่นได้อย่างมีประสิทธิภาพ</p>
+                </div>
+            </div>
+            
+            <!-- นาย เกื้อกูล กันสุข -->
+            <div class="student-section">
+                <div class="student-header">
+                    <div class="student-icon">👨‍🎓</div>
+                    <div class="student-info">
+                        <h2>นาย เกื้อกูล กันสุข</h2>
+                        <p>มัธยมศึกษาปีที่ 5/3 เลขที่ 1</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <p><strong>ชื่อ:</strong> นาย เกื้อกูล กันสุข</p>
+                    <p><strong>ชั้นเรียน:</strong> มัธยมศึกษาปีที่ 5/3</p>
+                    <p><strong>เลขที่:</strong> 1</p>
+                    <p><strong>เกี่ยวกับตัวเอง:</strong> นักเรียนที่กระตือรือร้นในการศึกษาและพัฒนาทักษะด้านสารสนเทศ มีความสนใจในการเขียนโปรแกรมและการแก้ปัญหาต่าง ๆ ด้วยเทคโนโลยี</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 การแนะนำตัวเอง | นักเรียนชั้นมัธยมศึกษาปีที่ 5/3</p>
+        </div>
+    </div>
+</body>
+</html>
